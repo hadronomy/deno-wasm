@@ -1,6 +1,6 @@
 {
 	"name": "@hadronomy/fibonacci-wasm",
-	"version": "1.0.1",
+	"version": "1.0.3",
 	"exports": "./mod.ts",
 	"publish": {
 		"include": ["**/*.js", "**/*.d.ts", "**/*.ts", "**/*.wasm", "README.md"],
