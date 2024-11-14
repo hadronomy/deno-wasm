@@ -1,0 +1,8 @@
+{
+	"name": "@hadronomy/fibonacci-wasm",
+	"version": "1.0.0",
+	"exports": "./mod.ts",
+	"publish": {
+		"include": ["./pkg/*", "./mod.ts", "./Cargo.toml", "./README.md"]
+	}
+}
