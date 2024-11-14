@@ -3,7 +3,7 @@
 	"version": "1.0.1",
 	"exports": "./mod.ts",
 	"publish": {
-		"include": ["**/*.js", "**/*.d.ts", "**/*.ts", "**/*.wasm"],
+		"include": ["**/*.js", "**/*.d.ts", "**/*.ts", "**/*.wasm", "README.md"],
 		"exclude": ["!**/*.js", "!**/*.d.ts", "!**/*.ts", "!**/*.wasm"]
 	}
 }
