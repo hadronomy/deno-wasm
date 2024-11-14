@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"exports": "./mod.ts",
 	"publish": {
-		"include": ["./pkg/*", "./mod.ts", "./Cargo.toml", "./README.md"]
+		"include": ["**/*.js", "**/*.d.ts", "**/*.ts"],
+		"exclude": ["!**/*.js", "!**/*.d.ts", "!**/*.ts"]
 	}
 }
