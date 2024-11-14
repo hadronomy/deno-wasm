@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/.github/images/github-header-image.webp" alt="GitHub Header Image" width="auto" />
+  <img src="https://raw.githubusercontent.com/hadronomy/deno-wasm/refs/heads/main/.github/images/github-header-image.webp" alt="GitHub Header Image" width="auto" />
   
   <!-- MIT License -->
   <a href="https://github.com/hadronomy/deno-wasm/blob/main/LICENSE">
