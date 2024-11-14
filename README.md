@@ -31,7 +31,7 @@
 ## Installation
 
 ```bash
-deno install -A jsr:@hadronomy/fibonacci
+deno install -A --global jsr:@hadronomy/fibonacci
 ```
 
 ## Usage

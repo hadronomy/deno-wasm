@@ -1,6 +1,6 @@
 {
 	"name": "@hadronomy/fibonacci",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"exports": "./mod.ts",
 	"tasks": {
 		"run": "deno run -A main.ts"

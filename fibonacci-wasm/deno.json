@@ -1,9 +1,9 @@
 {
 	"name": "@hadronomy/fibonacci-wasm",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"exports": "./mod.ts",
 	"publish": {
-		"include": ["**/*.js", "**/*.d.ts", "**/*.ts"],
-		"exclude": ["!**/*.js", "!**/*.d.ts", "!**/*.ts"]
+		"include": ["**/*.js", "**/*.d.ts", "**/*.ts", "**/*.wasm"],
+		"exclude": ["!**/*.js", "!**/*.d.ts", "!**/*.ts", "!**/*.wasm"]
 	}
 }

@@ -6,8 +6,5 @@
 	"fmt": {
 		"singleQuote": true
 	},
-	"publish": {
-		"include": ["**/*.js", "**/*.d.ts", "**/*.ts"]
-	},
 	"exclude": ["**/target", "**/pkg", "!**/fibonacci-wasm/pkg"]
 }
