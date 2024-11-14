@@ -1,0 +1,17 @@
+{
+	"name": "@hadronomy/fibonacci",
+	"version": "1.0.0",
+	"exports": "./mod.ts",
+	"tasks": {
+		"run": "deno run -A main.ts"
+	},
+	"publish": {
+		"include": ["**/*.js", "**/*.d.ts", "**/*.ts"],
+		"exclude": ["!**/*.js", "!**/*.d.ts", "!**/*.ts"]
+	},
+	"imports": {
+		"@std/assert": "jsr:@std/assert@1",
+		"@std/cli": "jsr:@std/cli@^1.0.6",
+		"mitata": "npm:mitata@^1.0.10"
+	}
+}

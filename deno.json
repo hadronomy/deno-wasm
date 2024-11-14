@@ -1,22 +1,13 @@
 {
-	"name": "@hadronomy/deno-wasm-test",
-	"version": "1.0.0",
-	"exports": "./main.ts",
-	"compilerOptions": {
-		"allowJs": true
-	},
+	"workspace": ["./fibonacci-wasm", "./fibonacci"],
 	"tasks": {
-		"dev": "deno run --watch main.ts",
 		"test": "deno test -RES"
 	},
-	"workspace": ["./fibonacci-wasm"],
-	"imports": {
-		"@std/assert": "jsr:@std/assert@1",
-		"@std/cli": "jsr:@std/cli@^1.0.6",
-		"mitata": "npm:mitata@^1.0.10"
+	"fmt": {
+		"singleQuote": true
 	},
 	"publish": {
-		"include": ["./main.ts", "./deno.json", "./fibonacci-wasm"],
-		"exclude": ["!**/*.ts"]
-	}
+		"include": ["**/*.js", "**/*.d.ts", "**/*.ts"]
+	},
+	"exclude": ["**/target", "**/pkg", "!**/fibonacci-wasm/pkg"]
 }

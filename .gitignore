@@ -1,0 +1,5 @@
+# Optional: Ignore test coverage reports
+coverage/
+
+# Optional: Ignore log files
+*.log
